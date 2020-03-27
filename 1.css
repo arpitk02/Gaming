@@ -77,7 +77,7 @@ h1
     position: relative;
   }
   
-
+/*kuch bhi*/
 @media screen and (max-height: 450px) 
   {
     .sidebar {padding-top: 15px;}
