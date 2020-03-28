@@ -3,15 +3,7 @@ body
     font-family: "Lato", sans-serif;
     margin: 0;
   }
-  
-h1
-  {
-      font-family: alex brush;
-      margin-left: 38%;
-      font-size: 60;
-     
-  }
-  
+    
 .sidebar 
   {
     height: 100%;
@@ -58,6 +50,8 @@ h1
     color: white;
     border: none;
     float: right;
+    margin-top: 15;
+    margin-right: 10;
   }
   
 .openbtn:hover 
@@ -68,7 +62,6 @@ h1
 #main 
   {
     transition: margin-right .5s;
-    padding: 16px;
     background-image: url("wp2002438-assassins-creed-origins-wallpapers.jpg");
     min-height: 100vh;
     background-position: center;
@@ -86,11 +79,57 @@ h1
 
 #home
 {
-    background-image: url("wp2002438-assassins-creed-origins-wallpapers.jpg");
-    min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+   
     
+}
+
+@-webkit-keyframes flyIn
+{
+  from {padding: 0vh 60px 0px 60px;}
+  to {padding: 15vh 60px 0px 60px;}
+}
+@keyframes flyIn
+{
+  from {padding: 0vh 60px 0px 60px;}
+  to {padding: 15vh 60px 0px 60px;}
+}
+
+@-webkit-keyframes fade
+{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fade
+{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+#home h1
+{
+  padding: 15vh 60px 0px 60px;
+  font-family:kelly slab;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 100%;
+  text-transform:none;
+  color: #000;
+  -webkit-animation: flyIn 2s, fade 2s;
+  animation: flyIn 2s, fade 2s;
+}
+
+#home h2
+{
+  padding: 16px 25% 0 60px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 120%;
+  text-transform: none;
+  color: #281A00;
+  -webkit-animation: fade 2s;
+  animation: fade 2s;
 }
