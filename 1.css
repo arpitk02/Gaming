@@ -79,7 +79,7 @@ body
 
 #home
 {
-   
+   height: 100vh;
     
 }
 
@@ -132,4 +132,26 @@ body
   color: #281A00;
   -webkit-animation: fade 2s;
   animation: fade 2s;
+}
+
+
+#game-engines
+{
+  height: 100vh;
+  background-color: #000;
+}
+
+#esports{
+  height: 100vh;
+  background-color: blue;
+}
+
+#live-stream{
+  height: 100vh;
+  background-color: #281A00;
+}
+
+#about{
+  height: 70vh;
+  background-color:;  
 }
