@@ -8,8 +8,7 @@ body
   {
     height: 100%;
     width: 0;
-    position: fixed;
-    z-index: 1;
+    position: fixed; 
     top: 0;
     right:0;
     background-color: #111;
@@ -134,15 +133,61 @@ body
   animation: fade 2s;
 }
 
-
-#game-engines
-{
-  height: 100vh;
-  background-color: #000;
+/* ADARSH */
+#game-engines{
+  min-height: auto;
 }
 
+  .container-fluid {
+    max-width: 1200px;
+  }
+  
+  .card {
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 10px solid #9400D3;
+    border-radius:20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+  }
+  .card img {
+    width: 100%;
+  }
+  
+  [class*="row"] {
+    margin-bottom: 1em;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+  .btn:hover{
+    background-color: green;
+  }
+  .card:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  
+  .jumbotron{	background-image:url("ant1.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      color:white;
+      background-blend-mode:multiply;
+                  background-position: center;}
+  
+  .hr
+  { 
+    border: solid white;
+    width:38%;
+    margin:10px 50px 40px 10px;
+  }
+  
+  .mar{ margin:0px 0px 0px 30px;}
+  
+
+/* ARPIT */
 #esports{
-  height: 100vh;
+  min-height: 100vh;
   background-color: blue;
 }
 
@@ -151,7 +196,16 @@ body
   background-color: #281A00;
 }
 
+
 #about{
-  height: 70vh;
-  background-color:;  
+  min-height:70vh;
+  background-color: #ECF0F1;
+}
+
+#about h1
+{
+  text-align: center;
+  padding-top: 20;
+  font-family: Comic Sans MS;
+  
 }
