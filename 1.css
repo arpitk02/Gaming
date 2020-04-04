@@ -145,8 +145,6 @@ body
   .card {
     background: #fff;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    border-bottom: 10px solid #9400D3;
-    border-radius:20px;
     transition: 0.5s ease;
     cursor: pointer;
     margin:30px;
@@ -160,12 +158,11 @@ body
     -webkit-box-pack: center;
             justify-content: center;
   }
-  .btn:hover{
-    background-color: green;
-  }
   .card:hover{
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    border-bottom: 10px solid #b30054;
+    border-radius:20px;
   }
   
   .jumbotron{	background-image:url("ant1.jpg");
