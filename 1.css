@@ -11,7 +11,7 @@ body
     position: fixed; 
     top: 0;
     right:0;
-    background-color: #111;
+    background-color: #131F28;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -61,7 +61,7 @@ body
 #main 
   {
     transition: margin-right .5s;
-    background-image: url("wp2002438-assassins-creed-origins-wallpapers.jpg");
+    background-image: url("background.jpg");
     min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,12 +85,12 @@ body
 @-webkit-keyframes flyIn
 {
   from {padding: 0vh 60px 0px 60px;}
-  to {padding: 15vh 60px 0px 60px;}
+  to {padding: 18vh 60px 0px 60px;}
 }
 @keyframes flyIn
 {
   from {padding: 0vh 60px 0px 60px;}
-  to {padding: 15vh 60px 0px 60px;}
+  to {padding: 18vh 60px 0px 60px;}
 }
 
 @-webkit-keyframes fade
@@ -107,7 +107,7 @@ body
 
 #home h1
 {
-  padding: 15vh 60px 0px 60px;
+  padding: 18vh 60px 0px 60px;
   font-family:kelly slab;
   font-style: normal;
   font-weight: 400;
@@ -121,7 +121,7 @@ body
 
 #home h2
 {
-  padding: 16px 25% 0 60px;
+  padding: 18px 25% 0 60px;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-weight: 100;
@@ -145,8 +145,6 @@ body
   .card {
     background: #fff;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    border-bottom: 10px solid #9400D3;
-    border-radius:20px;
     transition: 0.5s ease;
     cursor: pointer;
     margin:30px;
@@ -160,13 +158,13 @@ body
     -webkit-box-pack: center;
             justify-content: center;
   }
-  .btn:hover{
-    background-color: green;
-  }
   .card:hover{
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    border-bottom: 10px solid #b30054;
+    border-radius:20px;
   }
+  
   
   .jumbotron{	background-image:url("ant1.jpg");
       background-repeat:no-repeat;
